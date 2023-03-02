@@ -1,0 +1,172 @@
+{
+  "restaurants":[
+    {
+      "id":1 ,
+      "name":"Konichiwa",
+      "address":"2100 W Evans St STE B, Florence, South Carolina, USA",
+      "website": null,
+      "menu": "https://restaurantguru.com/Konnichiwa-Florence-South-Carolina/menu#&gid=1&pid=3",
+      "phoneNumber": "(843) 407-7097"
+    },
+    {
+      "id":2 ,
+      "name":"Flavors of India",
+      "address":"137 E Palmetto St, Florence, SC-29506",
+      "website": "http://www.flavorsofindiasc.com/",
+      "menu": "https://mymozo.com/myrestaurant/default?CompanyId=707",
+      "phoneNumber": "(843) 472-5222"
+    },
+    {
+      "id":3 ,
+      "name":"Flavors of India",
+      "address":"134 S Irby St Florence, SC 29501",
+      "website": "https://www.kingjefe.com/",
+      "menu": "https://www.kingjefe.com/food",
+      "phoneNumber":"(843) 407-7695"
+    },
+    {
+      "id":4 ,
+      "name":"Starfire Grill",
+      "address":"2130 W Palmetto Street Florence, SC 29501",
+      "website": "https://starfiregrillrestaurant.com/",
+      "menu": "https://starfiregrillrestaurant.com/menu/",
+      "phoneNumber":"(843) 407-7695"
+    },
+    {
+      "id":5 ,
+      "name":"Burger Bar",
+      "address":"850 Woody Jones Blvd, Florence, SC 29501-7419",
+      "website": null,
+      "menu": "https://www.allmenus.com/sc/florence/597244-1720-burger-bar/menu/",
+      "phoneNumber":"(843) 662-3416"
+    },
+    {
+      "id":6 ,
+      "name":"Thai House",
+      "address":"168 S Dargan St Florence, SC 29506",
+      "website": null,
+      "menu": "https://www.menupix.com/menudirectory/menu.php?id=478833",
+      "phoneNumber":"(843) 662-5777"
+    },
+    {
+      "id":7 ,
+      "name":"Wholly Smokin",
+      "address":"150 S Dargan St, Florence, SC 29506",
+      "website": "https://www.whollysmokinbbq.com/",
+      "menu": "https://www.whollysmokinbbq.com/menu",
+      "phoneNumber":"(843) 407-7545"
+    },
+    {
+      "id":8 ,
+      "name":"Tubb's",
+      "address":"1500 2nd Loop Rd Florence, SC 29501",
+      "website": "https://tubbsseafood.com/",
+      "menu": "https://tubbsseafood.com/menu",
+      "phoneNumber":"(843) 799-5579"
+    },
+    {
+      "id":9 ,
+      "name":"Red Bone Alley",
+      "address":"1903 W Palmetto St, Florence, SC 29501",
+      "website": "https://www.redbonealley.com/",
+      "menu": "https://www.redbonealley.com/menus/#menu",
+      "phoneNumber":"(843) 673-0035"
+    },
+    {
+      "id":10 ,
+      "name":"Venus",
+      "address":"471 W. Palmetto Street Florence, SC 29501",
+      "website": "https://venusrestaurantandcatering.com/",
+      "menu": "https://u621d9.p3cdn1.secureserver.net/wp-content/uploads/2023/02/VENUS_DINNER_MENU_2022.pdf",
+      "phoneNumber":"(843) 669-9977"
+    },
+    {
+      "id":11 ,
+      "name":"Sundae House",
+      "address":"1551 W Palmetto St, Florence, SC 29501",
+      "website": null,
+      "menu": "https://www.allmenus.com/sc/florence/338851-sundae-house/menu/",
+      "phoneNumber":"(843) 662-7141"
+    },
+    {
+      "id":12 ,
+      "name":"Salsa Y Limon",
+      "address":"914 S Cashua Drive, Florence, SC 29501",
+      "website": "https://www.salsaylimon.com/",
+      "menu": "https://www.salsaylimon.com/starters",
+      "phoneNumber":"(843) 407-7136"
+    },
+    {
+      "id":13 ,
+      "name":"Holt Brothers",
+      "address":"2087 W Evans St, Florence, SC 29501",
+      "website": "https://holtbrosbbq.com/",
+      "menu": "https://holtbrosbbq.com/menu/",
+      "phoneNumber":"(843) 407-4575"
+    },
+    {
+      "id":14 ,
+      "name":"Southern Hops",
+      "address":"911 Sunset Acres Lane, Florence, SC 29501",
+      "website": "http://southernhops.com/florence-location",
+      "menu": "http://southernhops.com/florence-location/florence-food-menu",
+      "phoneNumber":"(843) 667-1900"
+    },
+    {
+      "id":15 ,
+      "name":"Rebel Pie",
+      "address":"804-C Second Loop Road, Florence, SC 29505",
+      "website": "http://www.rebelpie.com/",
+      "menu": "http://www.rebelpie.com/menu",
+      "phoneNumber":"(843) 407-4195"
+    },
+    {
+      "id":16 ,
+      "name":"FE Pops",
+      "address":"1811 Cherokee Rd, Florence, SC 29505",
+      "website": null,
+      "menu": "https://www.menupix.com/menudirectory/menu.php?id=32021906",
+      "phoneNumber":"(843) 472-9555"
+    },
+    {
+      "id":17 ,
+      "name":"Pho An",
+      "address":"1914 W Lucas St, Florence, SC 29505",
+      "website": null,
+      "menu": "https://www.zmenu.com/pho-an-florence-online-menu/",
+      "phoneNumber":"(843) 702-2007"
+    },
+    {
+      "id":18 ,
+      "name":"Julia Belle's",
+      "address":"2106-50 West Lucas Street, Florence, SC 29505",
+      "website": "https://www.juliabellesrestaurant.com/",
+      "menu": "https://www.juliabellesrestaurant.com/menu",
+      "phoneNumber":"(843) 407-4686"
+    },
+    {
+      "id":19 ,
+      "name":"El Agave",
+      "address":"147 W Evans St, Florence, SC 29505",
+      "website": "https://elagavemexicanrestaurant.org/",
+      "menu": "https://elagavemexicanrestaurant.org/menu/",
+      "phoneNumber":"(843) 472-5268"
+    },
+    {
+      "id":20 ,
+      "name":"Bird's Nest",
+      "address":"152 S Dargan St, Florence, SC 29505",
+      "website": null,
+      "menu": "https://www.zmenu.com/birdsnest-eats-and-ales-florence-online-menu/",
+      "phoneNumber":"(843) 799-1757"
+    },
+    {
+      "id":21 ,
+      "name":"Zapatas",
+      "address":"904 Pamplico Hwy, Florence, SC 29505",
+      "website": null,
+      "menu": "https://www.yelp.com/menu/zapatas-grill-mexican-restaurant-florence",
+      "phoneNumber":"(843) 292-8980"
+    }
+  ]
+}
