@@ -61,7 +61,8 @@ async function pickFoodPlace(e) {
         '<div style="display: grid">' +
         '<h2 id="locationName">' + restaurant.name + '</h2>' +
         '<label for="address">Address:</label>' +
-       '<span id="address">' + restaurant.address + '</span>' +
+       '<a id="address" href="' + restaurant.mapLink + '" target="_blank" rel="noopener noreferrer">' +
+        restaurant.address + '</a>' +
         '<a id="website" href="' + restaurant.website + '">Website</a>' +
         '<a id="menu" href="' + restaurant.menu+ '">Menu</a>' +
         '<label for="phone">Phone:</label    <span id="phone">' + restaurant.phoneNumber + '</span>' +
