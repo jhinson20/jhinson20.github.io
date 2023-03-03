@@ -3,10 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Home Page</title>
+    <script
+            src="https://code.jquery.com/jquery-3.6.3.min.js"
+            integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+            crossorigin="anonymous">
+
+    </script>
+    <script src="js/foodFinder.js"></script>
 </head>
-<body>
+<body onload="createFoodList(event);">
 
 <h1>First Page of the site</h1>
+
+<div>
+    <table id="foodListTable">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Location</th>
+        </tr>
+    </table>
+</div>
+
+<button type="button" onclick="pickFoodPlace()">
+    <span>Find Food</span>
+</button>
+
+<!--
+<div>
+    <h2 id="locationName">Default Name</h2>
+    <label for="address">Address:</label>
+    <span id="address">Default Address</span>
+    <label for="website">Website:</label>
+    <span id="website">Default Website</span>
+    <label for="menu">Menu:</label>
+    <span id="menu">Default Menu</span>
+    <label for="phone">Phone:</label>
+    <span id="phone">Default Phone</span>
+</div>
+-->
 
 </body>
 </html>
