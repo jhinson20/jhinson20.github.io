@@ -42,18 +42,12 @@ async function pickFoodPlace(e) {
 
     for (let i = 1; i < tableRows.length; i++) {
         idList.push(tableRows[i].firstChild.outerText);
-        //console.log((tableRows[i].childNodes[0]));
     }
 
     let foodChoice = Math.floor(Math.random() * idList.length);
-    console.log(idList);
 
     let restaurantId = idList[foodChoice];
-    console.log(restaurantId);
 
-    //console.log(idList[foodChoice]);
-
-    //let restaurantId = tableRows[foodChoice].childNodes[0].outerText;
     let restaurants = null;
 
     await $.getJSON("data/foodFinder.json", function (result)
@@ -62,7 +56,6 @@ async function pickFoodPlace(e) {
     });
 
     let restaurant = restaurants[restaurantId - 1];
-    console.log(restaurant);
 
     let html =
         '<div style="display: grid">' +
