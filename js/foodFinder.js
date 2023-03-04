@@ -20,7 +20,7 @@ async function createFoodList() {
             '</td>' +
             '</tr>';
 
-        $("#foodListTable").append(html);
+        $("#food-list-table").append(html);
     }
 
 }
@@ -36,7 +36,7 @@ function removeFood(e) {
 
 async function pickFoodPlace(e) {
 
-    let tableRows = document.getElementById("foodListTable").rows;
+    let tableRows = document.getElementById("food-list-table").rows;
 
     let idList = [];
 

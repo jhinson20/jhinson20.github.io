@@ -1,0 +1,20 @@
+body {
+    #display: grid;
+    #display: flex;
+    justify-content: center;
+    background-color: #CCC7B9;
+    padding-top: 50px;
+}
+
+.center-container {
+    display: grid;
+    justify-content: center;
+}
+
+.table {
+    background-color: #EAF9D9;
+}
+
+#table-header {
+    background-color: #AF7A6D;
+}
