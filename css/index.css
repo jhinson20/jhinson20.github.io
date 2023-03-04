@@ -1,9 +1,9 @@
 body {
     #display: grid;
-    #display: flex;
     justify-content: center;
-    background-color: #CCC7B9;
+    background-color: #696773;
     padding-top: 50px;
+    font-family: "Courier New", serif;
 }
 
 .center-container {
@@ -12,9 +12,23 @@ body {
 }
 
 .table {
-    background-color: #EAF9D9;
+    background-color: #EFF1F3;
+}
+
+#table-container {
+
+}
+
+.navbar-container {
+    width: 1300px;
+    background-color: #272727;
+    color: #EFF1F3;
+}
+
+.header-container {
+    margin: 20px 0px 20px 0px;
 }
 
 #table-header {
-    background-color: #AF7A6D;
+    background-color: #009FB7;
 }
