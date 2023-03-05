@@ -20,11 +20,12 @@
 <body onload="createFoodList(event);">
 
 
-<div class="header-container center-container align-content-center">
-    <div class="navbar-container navbar">
-        <h1>Food Finder</h1>
+<nav class="navbar navbar-expand-lg">
+    <div class="container container-lg">
+        <a id="brand-link" class="navbar-brand" href="#">Food Finder</a>
     </div>
-</div>
+</nav>
+
 
 <div class="container-lg">
 
@@ -42,7 +43,7 @@
         </div>
 
         <div class="col-md-4">
-            <button type="button" class="btn btn-danger" onclick="pickFoodPlace()">
+            <button type="button" class="btn" onclick="pickFoodPlace()">
                 <span>Find Food</span>
             </button>
         </div>

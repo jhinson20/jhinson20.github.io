@@ -1,5 +1,5 @@
 body {
-    #display: grid;
+    /*display: grid;*/
     justify-content: center;
     background-color: #696773;
     padding-top: 50px;
@@ -19,11 +19,26 @@ body {
 
 }
 
-.navbar-container {
-    width: 1300px;
+.btn {
+    color: #272727;
+    background-color: #FED766;
+}
+
+.container {
     background-color: #272727;
     color: #EFF1F3;
 }
+
+#brand-link {
+    color: #EFF1F3;
+}
+
+#brand-link:hover {
+    transition-duration: 1s;
+    color: #009FB7;
+}
+
+
 
 .header-container {
     margin: 20px 0px 20px 0px;
@@ -31,4 +46,19 @@ body {
 
 #table-header {
     background-color: #009FB7;
+}
+
+
+@media (max-width: 991px) {
+
+    .container {
+        margin: auto 0 auto 0;
+        width: auto;
+    }
+
+    .navbar {
+        background-color: #272727;
+        margin: auto auto 40px auto;
+    }
+
 }

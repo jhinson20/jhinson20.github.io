@@ -16,7 +16,7 @@ async function createFoodList() {
             '<td>' + restaurants[i].name + '</td>' +
             '<td>' + restaurants[i].address + '</td>' +
             '<td>' +
-            '<button onclick="removeFood(event)">Remove</button>' +
+            '<button type="button" class="btn" onclick="removeFood(event)">Remove</button>' +
             '</td>' +
             '</tr>';
 
