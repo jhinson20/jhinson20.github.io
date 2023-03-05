@@ -10,8 +10,11 @@ async function createFoodList() {
     });
 
     for (let i = 0; i < restaurants.length; i++) {
+
+        let id = "row_" + i;
+
         let html =
-            '<tr>' +
+            '<tr id="' + id + '">' +
             '<td>' + restaurants[i].id + '</td>' +
             '<td>' + restaurants[i].name + '</td>' +
             '<td>' + restaurants[i].address + '</td>' +
@@ -27,10 +30,12 @@ async function createFoodList() {
 
 function removeFood(e) {
     let row = e.target.parentNode.parentNode;
+    let rowId = '#' + row.id;
 
-    row.remove();
+    $(rowId).fadeOut(function () {
+        $(rowId).remove();
+    });
 
-    console.log(row);
 
 }
 
@@ -56,18 +61,26 @@ async function pickFoodPlace(e) {
     });
 
     let restaurant = restaurants[restaurantId - 1];
+    let html = "";
 
-    let html =
-        '<div style="display: grid">' +
-        '<h2 id="locationName">' + restaurant.name + '</h2>' +
-        '<label for="address">Address:</label>' +
-       '<a id="address" href="' + restaurant.mapLink + '" target="_blank" rel="noopener noreferrer">' +
-        restaurant.address + '</a>' +
-        '<a id="website" href="' + restaurant.website + '">Website</a>' +
-        '<a id="menu" href="' + restaurant.menu+ '">Menu</a>' +
-        '<label for="phone">Phone:</label    <span id="phone">' + restaurant.phoneNumber + '</span>' +
-        '</div>'
-    ;
+    try {
+        html =
+            '<div style="display: grid">' +
+            '<h2 id="locationName">' + restaurant.name + '</h2>' +
+            '<label for="address">Address:</label>' +
+            '<a id="address" href="' + restaurant.mapLink + '" target="_blank" rel="noopener noreferrer">' +
+            restaurant.address + '</a>' +
+            '<a id="website" href="' + restaurant.website + '">Website</a>' +
+            '<a id="menu" href="' + restaurant.menu+ '">Menu</a>' +
+            '<label for="phone">Phone:</label    <span id="phone">' + restaurant.phoneNumber + '</span>' +
+            '</div>'
+        ;
+
+    }
+    catch (e) {
+        console.log("There are no places in the list. You must refresh the page to refill the list.")
+        return;
+    }
 
     $("body").append(html)
 
