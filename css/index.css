@@ -6,6 +6,18 @@ body {
     font-family: "Courier New", serif;
 }
 
+ul {
+    padding: 0 0 0 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color:  #009FB7;
+}
+
 /*.center-container {*/
 /*    display: grid;*/
 /*    justify-content: center;*/

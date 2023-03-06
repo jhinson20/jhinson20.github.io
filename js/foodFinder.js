@@ -64,12 +64,21 @@ async function pickFoodPlace(e) {
     try {
         html =
             '<h2 id="locationName">' + restaurant.name + '</h2>' +
-            '<label for="address">Address:</label>' +
+            '<ul>' +
+            '<li>' +
             '<a id="address" href="' + restaurant.mapLink + '" target="_blank" rel="noopener noreferrer">' +
             restaurant.address + '</a>' +
+            '</li>' +
+            '<li>' +
             '<a id="website" href="' + restaurant.website + '">Website</a>' +
+            '</li>' +
+            '<li>' +
             '<a id="menu" href="' + restaurant.menu+ '">Menu</a>' +
-            '<label for="phone">Phone:</label    <span id="phone">' + restaurant.phoneNumber + '</span>'
+            '</li>' +
+            '<li>' +
+            '<label for="phone">Phone:</label    <span id="phone">' + restaurant.phoneNumber + '</span>' +
+            '</li>' +
+            '</ul>'
         ;
 
     }
