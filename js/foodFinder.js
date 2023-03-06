@@ -1,5 +1,3 @@
-let restaurants = null;
-
 async function createFoodList() {
 
     let restaurants = null;
@@ -65,15 +63,13 @@ async function pickFoodPlace(e) {
 
     try {
         html =
-            '<div style="display: grid">' +
             '<h2 id="locationName">' + restaurant.name + '</h2>' +
             '<label for="address">Address:</label>' +
             '<a id="address" href="' + restaurant.mapLink + '" target="_blank" rel="noopener noreferrer">' +
             restaurant.address + '</a>' +
             '<a id="website" href="' + restaurant.website + '">Website</a>' +
             '<a id="menu" href="' + restaurant.menu+ '">Menu</a>' +
-            '<label for="phone">Phone:</label    <span id="phone">' + restaurant.phoneNumber + '</span>' +
-            '</div>'
+            '<label for="phone">Phone:</label    <span id="phone">' + restaurant.phoneNumber + '</span>'
         ;
 
     }
@@ -82,7 +78,11 @@ async function pickFoodPlace(e) {
         return;
     }
 
-    $("body").append(html)
+    let foodChoiceDiv = $("#food-choice");
+
+    foodChoiceDiv.removeAttr('hidden');
+
+    foodChoiceDiv.html(html);
 
 }
 

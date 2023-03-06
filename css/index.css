@@ -6,17 +6,13 @@ body {
     font-family: "Courier New", serif;
 }
 
-.center-container {
-    display: grid;
-    justify-content: center;
-}
+/*.center-container {*/
+/*    display: grid;*/
+/*    justify-content: center;*/
+/*}*/
 
 .table {
     background-color: #EFF1F3;
-}
-
-#table-container {
-
 }
 
 .btn {
@@ -24,9 +20,25 @@ body {
     background-color: #FED766;
 }
 
+.btn:hover {
+    transition-duration: .5s;
+    background-color: #ffc83c;
+}
+
 .container {
     background-color: #272727;
     color: #EFF1F3;
+}
+.header-container {
+    margin: 20px 0px 20px 0px;
+}
+
+.chosen-food {
+    background-color: #272727;
+    color: #EFF1F3;
+    padding: 10px 10px 10px 10px;
+    margin: 10px auto 10px auto;
+    border-radius: 3px;
 }
 
 #brand-link {
@@ -38,16 +50,23 @@ body {
     color: #009FB7;
 }
 
-
-
-.header-container {
-    margin: 20px 0px 20px 0px;
+#choice-explanation {
+    background-color: #272727;
+    color: #EFF1F3;
+    padding: 10px 10px 10px 10px;
+    margin: 10px auto 10px auto;
+    border-radius: 3px;
 }
 
 #table-header {
     background-color: #009FB7;
 }
 
+#explanation-column {
+    /*background-color: #EFF1F3;*/
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+}
 
 @media (max-width: 991px) {
 

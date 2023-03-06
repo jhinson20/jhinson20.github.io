@@ -42,10 +42,25 @@
             </table>
         </div>
 
-        <div class="col-md-4">
-            <button type="button" class="btn" onclick="pickFoodPlace()">
-                <span>Find Food</span>
-            </button>
+        <div id="result-column" class="col-md-4 text-center">
+            <div id="explanation-column">
+                <p id="choice-explanation">
+                    A button from the table on the left will be random selected. The chosen restaurant will be displayed
+                    within a box below this one.
+                </p>
+                <button type="button" class="btn" onclick="pickFoodPlace()">
+                    <span>Find Food</span>
+                </button>
+            </div>
+
+            <div id="food-choice" class="chosen-food" hidden="hidden">
+
+            </div>
+
+            <div id="last-food-choice" class="chosen-food" hidden="hidden">
+
+            </div>
+
         </div>
 
     </div>
